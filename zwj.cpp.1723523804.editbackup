@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+#include<windows.h>
+using namespace std;
+int main(){
+	system("D:\\bingdu\\Mr bdxx.txt");
+	int a;
+	cout<<"安全代码:";
+	cin>>a;
+	if(a==114514){
+		cout<<"启动病毒中"<<endl;
+		cout<<"很抱歉，您无法取消，Sorry，Alt+F4无效！！！";
+		SetCursorPos(1,1);
+		for(int i=1;i<=10;i++){
+			cout<<".";
+			Sleep(600);
+		}
+		for(int i=1;i<=20;i++){
+			system("start cmd");
+		}
+		MessageBox(NULL,"Sorry，吓吓你啦！！！","come",MB_OK);
+		system("color 4");
+		cout<<"你完了！！！"<<endl;
+		cout<<"正在加载男神ikun";
+	}
+	else{
+		cout<<"安全代码不正确！！！";
+		return 0;
+	}
+}
